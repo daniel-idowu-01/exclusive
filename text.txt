@@ -1,19 +1,19 @@
-/* Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! */
+/* Search Component Set */
 
-width: 474px;
-height: 18px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7px 12px 7px 20px;
+gap: 10px;
 
-/* Title/14PX Regular */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-/* or 150% */
+width: 243px;
+height: 38px;
 
-/* Text */
-color: #FAFAFA;
-
+/* Secondary */
+background: #F5F5F5;
+border-radius: 4px;
 
 /* Inside auto layout */
 flex: none;

@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import HeaderInfo from "./components/HeaderInfo";
-
-const inter = Inter({ subsets: ["latin"] });
+import NavBar from "./components/NavBar";
 
 export const metadata: Metadata = {
   title: "Exclusive",
@@ -17,8 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="poppins-regular">
         <HeaderInfo />
+        <NavBar />
         {children}
       </body>
     </html>
