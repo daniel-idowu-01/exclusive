@@ -1,21 +1,12 @@
-/* Search Component Set */
+/* Account Dropdown */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 7px 12px 7px 20px;
-gap: 10px;
+position: absolute;
+left: 0%;
+right: 0.44%;
+top: 0%;
+bottom: 0%;
 
-width: 243px;
-height: 38px;
-
-/* Secondary */
-background: #F5F5F5;
+background: rgba(0, 0, 0, 0.04);
+backdrop-filter: blur(75px);
+/* Note: backdrop-filter has minimal browser support */
 border-radius: 4px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
