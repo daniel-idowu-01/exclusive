@@ -5,7 +5,7 @@ import { sidebarCategories } from "../data/infoData";
 const Hero = () => {
   return (
     <main className="flex flex-col-reverse md:flex-row">
-      <article className="flex flex-col gap-4 border-r md:w-[20%] md:px-10 md:pt-10 h-fit">
+      <article className="hidden md:flex flex-col gap-4 border-r w-[20%] px-10 pt-10 h-fit">
         {sidebarCategories.map((category, index) => (
           <p key={index}>{category.name}</p>
         ))}

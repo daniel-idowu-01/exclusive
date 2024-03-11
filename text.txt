@@ -1,12 +1,10 @@
-/* Account Dropdown */
+/* Ellipse 15 */
 
 position: absolute;
 left: 0%;
-right: 0.44%;
+right: 0%;
 top: 0%;
 bottom: 0%;
 
-background: rgba(0, 0, 0, 0.04);
-backdrop-filter: blur(75px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 4px;
+/* Secondary */
+background: #F5F5F5;
