@@ -1,6 +1,6 @@
 import React from "react";
 import { Dropdown } from "flowbite-react";
-import { iconStyle } from "../data/NavData";
+import { iconStyle } from "../data/infoData";
 import { CiSearch, CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
 
 const DesktopNav = () => {

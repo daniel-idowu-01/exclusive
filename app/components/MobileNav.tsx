@@ -1,12 +1,16 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { links } from "../data/NavData";
+import { links } from "../data/infoData";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdOutlineCancel } from "react-icons/md";
 
 const MobileNav = () => {
   const [sideBar, setSideBar] = useState(false);
+
+  const handleBlur = () => {
+    setSideBar(false);
+  };
   return (
     <div>
       {sideBar ? (
@@ -23,6 +27,7 @@ const MobileNav = () => {
 
       {/* nav bar container */}
       <section
+        onBlur={handleBlur}
         className={`${
           sideBar ? "left-0" : "-left-full"
         } w-4/5 h-screen bg-white border-r flex flex-col gap-14 absolute top-0 text-center justify-center transition-all`}

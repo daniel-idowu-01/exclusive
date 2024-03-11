@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
-import { links } from "../data/NavData";
+import { links } from "../data/infoData";
 
 const NavBar = () => {
   const navLinks = links.map((link) => (
@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <main
       style={{ width: "calc(100% - 2rem)" }}
-      className="mx-auto flex items-center justify-between py-5 px-4 border-b"
+      className="mx-auto flex items-center justify-between py-5 px-6 border-b"
     >
       <div className="font-semibold text-lg w-full">Exclusive</div>
 
