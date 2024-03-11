@@ -1,10 +1,12 @@
 import React from "react";
 import CountdownTimer from "./CountdownTimer";
+import ProductComp from "./ProductComp";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const FlashSales = () => {
   return (
     <main className="p-10">
+      {/* header */}
       <p className="border-l-[15px] border-red-600 text-red-600 pl-3 py-1.5 text-xs">
         Today's
       </p>
@@ -22,6 +24,11 @@ const FlashSales = () => {
             <FaArrowLeft />
           </span>
         </article>
+      </div>
+
+      {/*  */}
+      <div>
+        <ProductComp />
       </div>
     </main>
   );

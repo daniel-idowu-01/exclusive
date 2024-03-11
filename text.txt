@@ -1,10 +1,22 @@
-/* Ellipse 15 */
+/* $160 */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+width: 37px;
+height: 24px;
 
-/* Secondary */
-background: #F5F5F5;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-decoration-line: line-through;
+
+/* Button */
+color: #000000;
+
+opacity: 0.5;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
