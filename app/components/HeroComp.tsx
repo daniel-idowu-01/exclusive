@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const HeroComp = () => {
   return (
-    <main className="flex justify-between bg-black text-white py-5">
-      <article className="flex flex-col gap-2 md:px-20 py-10 m-auto">
+    <main className="flex flex-col md:flex-row justify-between bg-black text-white py-5">
+      <article className="flex flex-col gap-5 md:gap-2 px-10 md:px-20 py-10 m-auto">
         <div className="flex items-center gap-5">
           <Image src="/images/apple_logo.svg" alt="" width={30} height={30} />
           <p>iPhone 14 Series</p>
