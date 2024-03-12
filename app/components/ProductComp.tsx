@@ -8,7 +8,7 @@ const ProductComp = () => {
   const iconStyle: string = "text-2xl bg-white rounded-full p-2";
 
   return (
-    <main className="w-fit">
+    <main className="flex-1 w-80">
       <section className="group relative bg-[#F5F5F5] p-14 rounded-md hover:cursor-pointer">
         <Image src="/images/psp.svg" alt="" width={200} height={200} />
         <p className="bg-red-500 text-white px-2 py-1 rounded-md absolute top-3 left-3">
@@ -23,7 +23,7 @@ const ProductComp = () => {
           </span>
         </div>
 
-        <button className="bg-black text-white w-full py-2 absolute left-0 -bottom-1/4 group-hover:bottom-0 group-hover:z-10 transition-all -z-50">
+        <button className="bg-black bg-opacity-80 hover:bg-opacity-100 text-white w-full py-2 absolute left-0 -bottom-1/4 group-hover:bottom-0 group-hover:z-10 transition-all -z-50">
           Add To Cart
         </button>
       </section>
