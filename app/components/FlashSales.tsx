@@ -5,9 +5,9 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const FlashSales = () => {
   return (
-    <main className="p-10 md:py-20">
+    <main className="m-10 md:py-5 border-b mb-40">
       {/* header */}
-      <p className="border-l-[15px] border-red-600 text-red-600 pl-3 py-1.5 text-xs">
+      <p className="border-l-[15px] border-[#DB4444] text-[#DB4444] pl-3 py-1.5 text-xs">
         Today's
       </p>
       <div className="flex flex-col md:flex-row justify-between mt-3 md:mt-0">
@@ -34,6 +34,12 @@ const FlashSales = () => {
         <ProductComp />
         <ProductComp />
         <ProductComp />
+      </div>
+
+      <div className="flex justify-center items-center my-10">
+        <button className="bg-[#DB4444] text-white px-6 py-3 rounded-md">
+          View All Products
+        </button>
       </div>
     </main>
   );

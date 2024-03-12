@@ -1,22 +1,19 @@
-/* $160 */
+/* Discount percent */
 
-width: 37px;
-height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 12px;
+gap: 10px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-text-decoration-line: line-through;
+position: absolute;
+width: 55px;
+height: 26px;
+left: 12px;
+top: 12px;
 
-/* Button */
-color: #000000;
-
-opacity: 0.5;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+/* Secondary 2 */
+background: #DB4444;
+border-radius: 4px;
