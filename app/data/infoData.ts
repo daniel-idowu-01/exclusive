@@ -52,4 +52,32 @@ const sidebarCategories = [
   },
 ];
 
-export { links, iconStyle, sidebarCategories };
+// product categories
+const categories = [
+  {
+    src: "/images/categories/phone.svg",
+    category: "Phones",
+  },
+  {
+    src: "/images/categories/computer.svg",
+    category: "Computers",
+  },
+  {
+    src: "/images/categories/smartwatch.svg",
+    category: "SmartWatch",
+  },
+  {
+    src: "/images/categories/phone.svg",
+    category: "Phones",
+  },
+  {
+    src: "/images/categories/headphone.svg",
+    category: "HeadPhones",
+  },
+  {
+    src: "/images/categories/gamepad.svg",
+    category: "Gaming",
+  },
+];
+
+export { links, iconStyle, sidebarCategories, categories };

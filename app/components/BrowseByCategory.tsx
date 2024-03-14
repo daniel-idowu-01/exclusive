@@ -1,5 +1,6 @@
 import React from "react";
 import CategoryComp from "./CategoryComp";
+import { categories } from "../data/infoData";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const BrowseByCategory = () => {
@@ -27,12 +28,9 @@ const BrowseByCategory = () => {
 
       {/*  */}
       <div className="mt-10 flex justify-between">
-        <CategoryComp />
-        <CategoryComp />
-        <CategoryComp />
-        <CategoryComp />
-        <CategoryComp />
-        <CategoryComp />
+        {categories.map(category => (
+          <CategoryComp {...category} />
+        ))}
       </div>
     </main>
   );
