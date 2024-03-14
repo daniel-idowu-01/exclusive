@@ -26,7 +26,12 @@ const BrowseByCategory = () => {
       </div>
 
       {/*  */}
-      <div>
+      <div className="mt-10 flex justify-between">
+        <CategoryComp />
+        <CategoryComp />
+        <CategoryComp />
+        <CategoryComp />
+        <CategoryComp />
         <CategoryComp />
       </div>
     </main>
