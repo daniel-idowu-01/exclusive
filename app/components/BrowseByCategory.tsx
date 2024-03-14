@@ -1,4 +1,5 @@
 import React from "react";
+import CategoryComp from "./CategoryComp";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const BrowseByCategory = () => {
@@ -26,7 +27,7 @@ const BrowseByCategory = () => {
 
       {/*  */}
       <div>
-        
+        <CategoryComp />
       </div>
     </main>
   );
