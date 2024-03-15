@@ -17,3 +17,12 @@
 .scroll::-webkit-scrollbar {
   display: none;
 }
+
+.blur-bg {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  background: #d9d9d9;
+  opacity: 0.3;
+  filter: blur(100px);
+}

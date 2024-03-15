@@ -3,7 +3,7 @@ import ProductComp from "./ProductComp";
 
 const BestSelling = () => {
   return (
-    <main className="m-10 lg:m-14 md:py-10 border-b">
+    <main className="m-5 my-14 lg:m-14 md:py-5 border-b">
       <p className="border-l-[15px] border-[#DB4444] text-[#DB4444] pl-3 py-1.5 text-xs">
         This Month
       </p>
@@ -21,9 +21,7 @@ const BestSelling = () => {
         </article>
       </div>
 
-      <div className="scroll grid grid-cols-6 gap-[22rem] mt-5 overflow-x-scroll">
-        <ProductComp />
-        <ProductComp />
+      <div className="scroll grid grid-cols-4 gap-[22rem] mt-5 overflow-x-scroll">
         <ProductComp />
         <ProductComp />
         <ProductComp />

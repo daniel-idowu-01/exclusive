@@ -1,14 +1,11 @@
-/* Category-Phone */
+/* Ellipse 23 */
 
-box-sizing: border-box;
+position: absolute;
+width: 504px;
+height: 500px;
+left: 552px;
+top: 0px;
 
-width: 170px;
-height: 145px;
-
-border: 1px solid rgba(0, 0, 0, 0.3);
-border-radius: 4px;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+background: #D9D9D9;
+opacity: 0.3;
+filter: blur(100px);

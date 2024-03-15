@@ -10,7 +10,7 @@ const HeroComp = () => {
           <Image src="/images/apple_logo.svg" alt="" width={30} height={30} />
           <p>iPhone 14 Series</p>
         </div>
-        <p className="text-3xl lg:text-5xl leading-snug">
+        <p className="text-4xl lg:text-5xl leading-snug">
           Up to 10% off Voucher
         </p>
         <div className="flex items-center w-fit gap-2">
