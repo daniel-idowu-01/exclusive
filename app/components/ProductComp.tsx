@@ -10,7 +10,13 @@ const ProductComp = () => {
   return (
     <main className="flex-1 w-80">
       <section className="group relative bg-[#F5F5F5] p-14 rounded-md hover:cursor-pointer">
-        <Image src="/images/psp.svg" alt="" width={200} height={200} />
+        <Image
+          src="/images/psp.svg"
+          alt=""
+          width={150}
+          height={150}
+          className="mx-auto"
+        />
         <p className="bg-[#DB4444] text-white px-2 py-1 rounded-md absolute top-3 left-3">
           -40%
         </p>

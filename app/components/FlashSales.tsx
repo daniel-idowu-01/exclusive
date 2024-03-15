@@ -27,7 +27,7 @@ const FlashSales = () => {
       </div>
 
       {/*  */}
-      <div className="scroll grid grid-cols-6 gap-[22rem] mt-5 overflow-x-scroll overflow-hidden overscroll-none">
+      <div className="scroll grid grid-cols-6 gap-[22rem] mt-5 overflow-x-scroll">
         <ProductComp />
         <ProductComp />
         <ProductComp />

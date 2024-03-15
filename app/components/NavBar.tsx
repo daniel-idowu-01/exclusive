@@ -15,13 +15,15 @@ const NavBar = () => {
   return (
     <main
       style={{ width: "calc(100% - 2rem)" }}
-      className="mx-auto flex items-center justify-between py-5 px-6 border-b"
+      className="mx-auto flex items-center justify-between py-5 px-6 lg:px-10 border-b"
     >
-      <div className="font-semibold text-lg w-full">Exclusive</div>
+      <div className="font-semibold text-lg lg:w-full">Exclusive</div>
 
-      <div className="hidden md:flex justify-evenly w-full">{navLinks}</div>
+      <div className="hidden md:flex justify-evenly lg:w-full md:gap-5">
+        {navLinks}
+      </div>
 
-      <div className="hidden md:flex items-center justify-around w-full">
+      <div className="hidden md:flex items-center justify-around w-[40%] lg:w-full">
         <DesktopNav />
       </div>
 

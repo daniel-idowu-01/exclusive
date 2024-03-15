@@ -4,7 +4,7 @@ import { Dropdown } from "flowbite-react";
 
 const HeaderInfo = () => {
   return (
-    <main className="poppins-regular flex justify-between bg-black w-full py-4 px-10 text-[#FAFAFA]">
+    <main className="poppins-regular flex justify-between bg-black w-full py-4 px-10 lg:px-20 text-[#FAFAFA]">
       <div></div>
 
       <div className="hidden md:block">
