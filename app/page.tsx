@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import FlashSales from "./components/FlashSales";
 import BrowseByCategory from "./components/BrowseByCategory";
+import BestSelling from "./components/BestSelling";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <FlashSales />
       <BrowseByCategory />
+      <BestSelling />
     </main>
   );
 }

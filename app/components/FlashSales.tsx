@@ -5,7 +5,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const FlashSales = () => {
   return (
-    <main className="m-10 md:py-5 border-b">
+    <main className="m-10 lg:m-14 md:py-5 border-b">
       {/* header */}
       <p className="border-l-[15px] border-[#DB4444] text-[#DB4444] pl-3 py-1.5 text-xs">
         Today's
