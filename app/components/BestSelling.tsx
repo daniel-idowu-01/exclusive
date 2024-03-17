@@ -21,7 +21,7 @@ const BestSelling = () => {
         </article>
       </div>
 
-      <div className="scroll grid grid-cols-4 gap-[22rem] mt-5 overflow-x-scroll">
+      <div className="flex justify-between gap-10 mt-5 overflow-x-hidden">
         <ProductComp />
         <ProductComp />
         <ProductComp />

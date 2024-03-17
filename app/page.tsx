@@ -3,6 +3,7 @@ import FlashSales from "./components/FlashSales";
 import BrowseByCategory from "./components/BrowseByCategory";
 import BestSelling from "./components/BestSelling";
 import EnhanceXperience from "./components/EnhanceXperience";
+import ExploreProducts from "./components/ExploreProducts";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <BrowseByCategory />
       <BestSelling />
       <EnhanceXperience />
+      <ExploreProducts />
     </main>
   );
 }

@@ -8,7 +8,7 @@ const ProductComp = () => {
   const iconStyle: string = "text-2xl bg-white rounded-full p-2";
 
   return (
-    <main className="flex-1 w-80">
+    <main className="flex-1 w-64">
       <section className="group relative bg-[#F5F5F5] p-14 rounded-md hover:cursor-pointer">
         <Image
           src="/images/psp.svg"
