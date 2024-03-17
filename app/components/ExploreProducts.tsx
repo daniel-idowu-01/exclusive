@@ -26,7 +26,7 @@ const ExploreProducts = () => {
       </div>
 
       {/*  */}
-      <div className="w-full grid grid-cols-4 place-items-stretch gap-y-5 bg-red-500 mt-5">
+      <div className="w-full grid grid-cols-4 place-items-stretch gap-y-10 mt-5">
         <ProductComp />
         <ProductComp />
         <ProductComp />
