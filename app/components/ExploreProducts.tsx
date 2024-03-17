@@ -37,6 +37,12 @@ const ExploreProducts = () => {
         <ProductComp />
         <ProductComp />
       </div>
+
+      <div className="flex justify-center items-center my-10">
+        <button className="bg-[#DB4444] text-white px-6 py-3 rounded-md">
+          View All Products
+        </button>
+      </div>
     </main>
   );
 };
