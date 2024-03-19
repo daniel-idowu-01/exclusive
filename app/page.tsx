@@ -4,6 +4,7 @@ import BrowseByCategory from "./components/BrowseByCategory";
 import BestSelling from "./components/BestSelling";
 import EnhanceXperience from "./components/EnhanceXperience";
 import ExploreProducts from "./components/ExploreProducts";
+import NewArrival from "./components/NewArrival";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BestSelling />
       <EnhanceXperience />
       <ExploreProducts />
+      <NewArrival />
     </main>
   );
 }
