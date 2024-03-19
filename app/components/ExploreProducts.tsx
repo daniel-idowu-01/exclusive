@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 import ProductComp from "./ProductComp";
+import Button from "../ui/Button";
 
 const ExploreProducts = () => {
   return (
@@ -42,9 +43,7 @@ const ExploreProducts = () => {
       </section>
 
       <div className="flex justify-center items-center my-10">
-        <button className="bg-[#DB4444] text-white px-6 py-3 rounded-md">
-          View All Products
-        </button>
+        <Button />
       </div>
     </main>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import NewArrivalComp from "./NewArrivalComp";
 
 const NewArrival = () => {
   return (
@@ -12,6 +13,11 @@ const NewArrival = () => {
             New Arrival
           </p>
         </article>
+      </div>
+
+      {/*  */}
+      <div>
+        <NewArrivalComp />
       </div>
     </main>
   );

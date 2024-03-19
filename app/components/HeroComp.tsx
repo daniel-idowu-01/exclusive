@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa6";
+import ShopNow from "../ui/ShopNow";
 
 const HeroComp = () => {
   return (
@@ -13,10 +13,7 @@ const HeroComp = () => {
         <p className="text-4xl lg:text-5xl leading-snug">
           Up to 10% off Voucher
         </p>
-        <div className="flex items-center w-fit gap-2">
-          <p className="border-b pb-1">Shop Now</p>
-          <FaArrowRight />
-        </div>
+        <ShopNow />
       </article>
 
       <article>
