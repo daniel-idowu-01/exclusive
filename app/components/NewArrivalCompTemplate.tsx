@@ -5,16 +5,18 @@ import ShopNow from "../ui/ShopNow";
 interface NewArrivalCompTemplateProp {
   width: number;
   height: number;
+  src: string;
 }
 
 const NewArrivalCompTemplate: React.FC<NewArrivalCompTemplateProp> = ({
   width,
   height,
+  src,
 }) => {
   return (
     <main className="relative bg-black w-fit rounded-md">
       <Image
-        src="/images/playstation.svg"
+        src={src}
         alt=""
         width={width}
         height={height}
