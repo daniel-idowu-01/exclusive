@@ -1,11 +1,12 @@
-/* Ellipse 23 */
+/* Frame 685 */
 
-position: absolute;
-width: 504px;
-height: 500px;
-left: 552px;
-top: 0px;
+width: 570px;
+height: 284px;
 
-background: #D9D9D9;
-opacity: 0.3;
-filter: blur(100px);
+background: #0D0D0D;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
