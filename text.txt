@@ -1,12 +1,11 @@
-/* Frame 685 */
+/* Ellipse 6 */
 
-width: 570px;
-height: 284px;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
 
-background: #0D0D0D;
-border-radius: 4px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+/* Primary 1 */
+background: #2F2E30;
+opacity: 0.3;
