@@ -3,7 +3,7 @@ import Features from "./Features";
 
 const FeaturesComp = () => {
   return (
-    <main className="flex md:flex-row flex-col gap-10 md:gap-0 justify-evenly my-10">
+    <main className="flex md:flex-row flex-col gap-10 md:gap-0 justify-evenly my-10 md:my-20">
       <Features
         src="images/icons/icon-delivery.svg"
         title="Free and fast delivery"

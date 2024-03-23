@@ -6,6 +6,7 @@ import EnhanceXperience from "./components/EnhanceXperience";
 import ExploreProducts from "./components/ExploreProducts";
 import NewArrival from "./components/NewArrival";
 import FeaturesComp from "./components/FeaturesComp";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ExploreProducts />
       <NewArrival />
       <FeaturesComp />
+      <Footer />
     </main>
   );
 }
