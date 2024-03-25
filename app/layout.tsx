@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import HeaderInfo from "./components/HeaderInfo";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Exclusive",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <HeaderInfo />
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );
