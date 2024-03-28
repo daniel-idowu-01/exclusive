@@ -23,7 +23,7 @@ const Cart = () => {
         </article>
 
         {/*  */}
-        <article className="flex justify-between mt-10">
+        <article className="flex flex-col md:flex-row justify-between gap-5 mt-10">
           <div>
             <input
               type="text"

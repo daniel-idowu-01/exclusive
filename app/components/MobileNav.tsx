@@ -30,7 +30,7 @@ const MobileNav = () => {
         onBlur={handleBlur}
         className={`${
           sideBar ? "left-0" : "-left-full"
-        } w-4/5 h-screen bg-white border-r flex flex-col gap-14 absolute top-0 text-center justify-center transition-all`}
+        } w-4/5 h-screen bg-white border-r flex flex-col gap-14 absolute top-0 text-center justify-center transition-all z-50`}
       >
         <div className="font-semibold text-3xl">Exclusive</div>
         {links.map((link) => (
